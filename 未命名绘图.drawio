@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T07:10:41.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kuX0iqGV8F3De7exX3qA" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T07:36:20.381Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kqwrKLBpeTJoGpZYY8IU" version="21.2.9" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1130" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1866" dy="1353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="scheduler" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="230" y="80" width="280" height="1210" as="geometry" />
+          <mxGeometry x="230" y="80" width="280" height="1500" as="geometry" />
         </mxCell>
         <mxCell id="ELyOhNBLIUhQ0mFMdweI-51" value="容器化迁移请求参数args添加migrateType&lt;br&gt;:cvm_to_container&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;b934f9f13d2e26bcd890b2fd7591daf2&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="2" vertex="1">
           <mxGeometry x="20" y="70" width="120" height="60" as="geometry" />
@@ -28,8 +28,41 @@
         <mxCell id="ELyOhNBLIUhQ0mFMdweI-72" value="/task/continueTask" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="ELyOhNBLIUhQ0mFMdweI-71" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-18" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="70" y="820" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-19" value=",,检查step状态为finished,并wait 10分钟" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2">
+          <mxGeometry x="80" y="847" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-20" value="&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;continue&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;b934f9f13d2e26bcd890b2fd7591daf2&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="43" y="940" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-31" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="57" y="1130" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-32" value=",,检查step状态为finished,并wait 10分钟" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2">
+          <mxGeometry x="67" y="1157" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-33" value="&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;continue&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;b934f9f13d2e26bcd890b2fd7591daf2&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+          <mxGeometry x="30" y="1250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="1270" as="sourcePoint" />
+            <mxPoint x="372" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-35" value="/task/continueTask" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JSiZ3nmcYXT4a2-7QSxX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1130" as="sourcePoint" />
+            <mxPoint x="410" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3" value="migrate" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="510" y="80" width="280" height="1210" as="geometry" />
+          <mxGeometry x="510" y="80" width="280" height="1500" as="geometry" />
         </mxCell>
         <mxCell id="ELyOhNBLIUhQ0mFMdweI-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -84,8 +117,41 @@
             <mxPoint x="4" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="810" as="sourcePoint" />
+            <mxPoint x="120" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-125" y="960" as="sourcePoint" />
+            <mxPoint x="105" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-23" value="/task/continueTask" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JSiZ3nmcYXT4a2-7QSxX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-24" value="taskstep为&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;dataRebalance&lt;br&gt;ALLTopics" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="115" y="910" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-28" value="获取实例的全量topic,执行个全量topic的单个leader分区迁移任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="110" y="1052" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170.57999999999993" y="1000" as="sourcePoint" />
+            <mxPoint x="171" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-30" value="true" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JSiZ3nmcYXT4a2-7QSxX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-37" value="正常的迁移流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="100" y="1238" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="ELyOhNBLIUhQ0mFMdweI-42" value="" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
-          <mxGeometry x="790" y="80" width="270" height="1210" as="geometry" />
+          <mxGeometry x="790" y="80" width="270" height="1500" as="geometry" />
         </mxCell>
         <mxCell id="ELyOhNBLIUhQ0mFMdweI-59" value="false&lt;br&gt;入库" style="endArrow=classic;html=1;rounded=0;" parent="ELyOhNBLIUhQ0mFMdweI-42" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -125,6 +191,18 @@
         </mxCell>
         <mxCell id="JSiZ3nmcYXT4a2-7QSxX-15" value="告警走处理流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ELyOhNBLIUhQ0mFMdweI-42">
           <mxGeometry x="50" y="720" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ELyOhNBLIUhQ0mFMdweI-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="955" as="sourcePoint" />
+            <mxPoint x="60" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-26" value="false" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JSiZ3nmcYXT4a2-7QSxX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSiZ3nmcYXT4a2-7QSxX-27" value="执行其他任务步骤" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ELyOhNBLIUhQ0mFMdweI-42">
+          <mxGeometry x="60" y="928" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ELyOhNBLIUhQ0mFMdweI-82" value="注:只涉及instance级别的迁移" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" parent="1" vertex="1">
           <mxGeometry x="240" y="30" width="160" height="30" as="geometry" />
